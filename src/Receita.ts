@@ -14,6 +14,7 @@ export default class Receita {
   exibirReceita(): void {
     console.log(`Receita: ${this.nome}`);
     console.log(`Descrição: ${this.descricao}`);
+     console.log(`modoPreparo: ${this.modoPreparo}`);
 
   }
 }
