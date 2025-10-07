@@ -1,0 +1,23 @@
+{
+  "name": "gerenciador-receitas-culinarias",
+  "version": "1.0.0",
+  "description": "Gerenciador de receitas culinárias em TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --watch src --exec ts-node src/index.ts",
+    "start": "ts-node src/index.ts",
+    "build": "tsc"
+  },
+  "keywords": [
+    "typescript",
+    "receitas",
+    "culinaria"
+  ],
+  "author": "Tainá",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
