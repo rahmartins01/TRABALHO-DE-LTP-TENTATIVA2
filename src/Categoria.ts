@@ -19,7 +19,7 @@ export default class Categoria {
 
     public adicionarReceita(receita: Receita): void {
 
-        // 🔥 Verifica se já existe uma receita com o mesmo ID
+        // ssss Verifica se já existe uma receita com o mesmo ID
         const existe = this.receitas.some(r => (r as any).id === (receita as any).id);
 
         if (existe) {

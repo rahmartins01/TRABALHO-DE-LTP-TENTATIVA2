@@ -27,7 +27,7 @@ try {
   massas.exibirReceitas();
   sobremesas.exibirReceitas();
 
-  //sobremesas.adicionarReceita(boloChocolate);
+  //massas.adicionarReceita(macarrao);
 } catch (erro: any) {
   console.error("\n ERRO CAPTURADO:");
   console.error(erro.message);
